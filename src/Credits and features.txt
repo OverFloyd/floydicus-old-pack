@@ -1,0 +1,24 @@
+OverFloyd's Beta Pack v1.0
+For Minecraft 1.14.4
+-------------------------------------------------------------
+Project started: feb 23, 2019
+First release: aug 13, 2019
+-------------------------------------------------------------
+
+FEATURES:
+- old textures from beta 1.7.3
+	* for blocks added post beta 1.7.3, their first texture 	is in place
+	* items + custom sprites as place holders (e.g. beds)
+	* GUI (old beta menu screen)
+	* old sounds (non 2013 update)
+	* some others cool additions from old versions :^)
+		* sun/moon from beta 1.9
+- old pre beta 1.8 chests (from Classic Chest Model for	Nostalgia-Craft)
+- old lighting system (from SalC1's pack)
+
+-------------------------------------------------------------
+
+Let me know if there are any errors or for any suggestions at OverFloyd#2686 on discord. Credits to Mojang for the original textures.
+
+OverFloyd
+August 13, 2019
