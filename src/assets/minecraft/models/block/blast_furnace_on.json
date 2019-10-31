@@ -1,0 +1,15 @@
+{
+    "parent": "block/orientable",
+    "display": {
+        "gui": {
+            "rotation": [ 30, 135, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.625, 0.625, 0.625 ]
+        }
+    },
+    "textures": {
+        "top": "block/stone",
+        "front": "block/blast_furnace_front_on",
+        "side": "block/blast_furnace_side"
+    }
+}

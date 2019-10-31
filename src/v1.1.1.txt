@@ -1,0 +1,16 @@
+Changelog
+
+v1.1.1
+- Rotated 3D models for lapis and redstone block (GUI)
+- Retextured:
+* loom
+* barrel
+* cartography table
+* fletching table
+* smithing table
+* end stone and end portal frame
+* redstone block (uses a retextured version of the first version of the iron block)
+* lectern
+* petrified wooden slab
+* observer (from 16w43a)
+* mirrored oak door from Infdev

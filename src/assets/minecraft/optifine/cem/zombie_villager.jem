@@ -1,0 +1,8 @@
+{
+  "models": [
+	{
+      "model": "zombie_villager_body.jpm",
+      "part": "body"
+    }
+  ]
+}

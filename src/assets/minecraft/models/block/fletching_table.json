@@ -1,0 +1,19 @@
+{
+    "parent": "block/cube",
+    "display": {
+        "gui": {
+            "rotation": [ 30, 135, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.625, 0.625, 0.625 ]
+        }
+    },
+    "textures": {
+        "particle": "block/fletching_table_front",
+        "down": "block/fletching_table_bottom",
+        "up": "block/fletching_table_top",
+        "north": "block/fletching_table_front",
+        "east": "block/fletching_table_side",
+        "south": "block/fletching_table_front",
+        "west": "block/fletching_table_side"
+    }
+}

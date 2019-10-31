@@ -1,0 +1,19 @@
+{
+    "parent": "block/cube",
+    "display": {
+        "gui": {
+            "rotation": [ 30, 135, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.625, 0.625, 0.625 ]
+        }
+    },
+    "textures": {
+        "particle": "block/stonecutter_front",
+        "down": "block/furnace_top",
+        "up": "block/stonecutter_top",
+        "north": "block/stonecutter_front",
+        "east": "block/stonecutter_side",
+        "south": "block/stonecutter_front",
+        "west": "block/stonecutter_side"
+    }
+}

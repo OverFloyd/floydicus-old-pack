@@ -1,0 +1,15 @@
+{
+    "parent": "block/cube_bottom_top",
+    "display": {
+        "gui": {
+            "rotation": [ 30, 135, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.625, 0.625, 0.625 ]
+        }
+    },
+    "textures": {
+        "bottom": "block/piston_bottom",
+        "side": "block/piston_side",
+        "top": "block/piston_top"
+    }
+}

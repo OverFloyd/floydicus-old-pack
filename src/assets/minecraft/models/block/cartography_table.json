@@ -1,0 +1,19 @@
+{
+    "parent": "block/cube",
+    "display": {
+        "gui": {
+            "rotation": [ 30, 135, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.625, 0.625, 0.625 ]
+        }
+    },
+    "textures": {
+        "particle": "block/cartography_table_front",
+        "down": "block/cartography_table_bottom",
+        "up": "block/cartography_table_top",
+        "north": "block/cartography_table_front",
+        "east": "block/cartography_table_side",
+        "south": "block/cartography_table_front",
+        "west": "block/cartography_table_side"
+    }
+}
