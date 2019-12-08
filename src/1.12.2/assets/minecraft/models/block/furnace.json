@@ -8,7 +8,7 @@
         }
     },
     "textures": {
-        "top": "blocks/stone",
+        "top": "blocks/furnace_top",
         "front": "blocks/furnace_front_off",
         "side": "blocks/furnace_side"
     }
