@@ -1,0 +1,9 @@
+{
+    "parent": "block/orientable_with_bottom",
+    "textures": {
+        "top": "block/piston_inner",
+        "front": "block/smoker_front_on",
+        "side": "block/smoker_side",
+	"bottom": "block/furnace_top"
+    }
+}

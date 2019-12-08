@@ -1,0 +1,85 @@
+** CHANGELOG **
+
+v1.1.1
+- Rotated 3D models for lapis and redstone block (GUI)
+- Retextured:
+* loom
+* barrel
+* cartography table
+* fletching table
+* smithing table
+* end stone and end portal frame
+* redstone block (uses a retextured version of the first version of the iron block)
+* lectern
+* petrified wooden slab
+* observer (from 16w43a)
+* mirrored oak door from Infdev
+
+v1.2
+- Cleaned up the pack from redundant textures
+- Added textures and related json files when necessary:
+* Old infdev rails
+* Andesite, diorite, granite, stone bricks variants and end	stone bricks now have a custom made double slab texture
+* Old water
+* Old-styled ender chest (pre beta 1.8 model)
+* Old leaves
+* Old beta wool
+* Cactus, pressure plates, fences trapdoors and stairs now have a bigger model (and rotated in the inventory) when dropped
+* Furnace sounds from 1.9 for campfire
+* Old grass dead bush in swamplands (optifine)
+* Removed squid ink, falling dust particles, added unused angry villager
+* Campfire now has regular fire texture
+* Readded early counduit particles
+* Reverted enderman emitting smoke
+* Implemented bed sprites from BE
+* Petrified oak slabs now have the regular block model, with missing texture (from 1.8)
+* Snowballs particles for thrown eggs
+* lower half slabs now use the top texture for the block they refer to
+* Single level enchants made like pre 1.9 (Silk Touch I)
+* Brought back pressure plates, buttons and nether portal travel sounds
+* Removed item frame background texture, corner uses oak planks texture once again (ref: http://media.dinnerbone.com/uploads/2012-08/screenshots/Minecraft_2012-08-15_16-20-33.png)
+* Lantern uses stone sounds
+* Beta looking colormap (grass/foliage)
+* Grass block: old top texture (flipped to the right)
+* Sugar canes: now use "cross" instaed of the "tinted_cross" template, deleted dedicated custom colormap file in "optifine" folder
+* Old spawn eggs colors (optifine, from 11w49a)
+* Enhanced old light system
+* Deleted newer music tracks (2013 music update), deleted redundant files, reworked sounds.json heavily
+* Nether portal frames: now all 6 sides are rendered
+* Fixed magenta glass panes showing up as lime panes when placed
+* Old fire animation on burning mobs
+* b1.7 cobblestone texture for infested cobble
+* Old end portal frames from b1.9-pre3 (weird trasparency when placed on blocks - 1.14.4)
+* Bad omen icon changed to quiver, Hero of the village icon changed to ruby
+* Wool sounds for step on coral fans
+* Delete sounds for achievements
+* "Underwater" color added in optifine (1.14.4)
+* Sandstone/red sandstone and variants slabs added
+* Rotated wood bark blocks (GUI)
+* Minecart with chests and hoppers now display just "Minecart"
+* Big model for ender eye/ender pearl (3rd person)
+* Hopper uses cauldron texture once again
+* Powered rail in inventory uses the on state texture
+* Removed dark prismarine and prismarine bricks from C.A.
+* Carrot item sprite from 12w34a
+* Golden carrot sprite from 12w36a
+
+- Retextured:
+* lantern
+* allium and lily of the valley
+* accessibility button now has the old cog texture
+* "toast" pop ups made a bit more old style
+* Made the Mojang logo have trasparency
+* Cod (entity) using the old cod sprite from 1.12.2
+* Scaffold
+
+
+- Moved doors variants, old rails and old furnace stone top into the new Alpha Overlay pack
+* adjusted dispensers/droppers in Old Pack
+
+
+- 1.12.2
+* Added petrified oak texture for wooden slabs
+* Different textures for some double slabs, seamless variants
+
+- Updated #Cretits and features and #Copyright

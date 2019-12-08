@@ -1,0 +1,17 @@
+{
+    "parent": "block/grass",
+    "display": {
+        "gui": {
+            "rotation": [ 30, 135, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.625, 0.625, 0.625 ]
+        }
+    },
+    "textures": {
+        "particle": "blocks/dirt",
+        "bottom": "blocks/dirt",
+        "top": "blocks/grass_top",
+        "side": "blocks/grass_side",
+        "overlay": "blocks/grass_side_overlay"
+    }
+}

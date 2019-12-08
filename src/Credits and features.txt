@@ -1,18 +1,21 @@
-OverFloyd's Beta Pack
+Floydicus Old Pack
 For Minecraft 1.12.2/1.14.4
-Optifine needed!
+Optifine needed, programmer art for 1.14 and above
 -------------------------------------------------------------
 Project started: feb 23, 2019 (1.13.2)
 			 aug 12, 2019 (1.12.2)
 
 1.14.4
-First release: aug 13, 2019
-Second release: sept 8, 2019
-Third release: sept 18, 2019
+First release v1.0: aug 13, 2019
+Second release v1.1: sept 8, 2019
+Third release v1.1.1: sept 18, 2019
+Fourth release v1.2: dec 8, 2019
 
 1.12.2
 v1.0: sept 14, 2019
 v1.1: sept 28, 2019
+v1.2 preview: oct 11, 2019
+v1.2: dec 8, 2019
 -------------------------------------------------------------
 
 FEATURES:
@@ -24,19 +27,20 @@ FEATURES:
 	* Sad/red sand
 	* Stone and variants
 	* Lily pad
-* Reverted all glass panes variants and iron bars' "post" state to be four sided again (pre 15w31a for 1.9)
+* Reverted all glass panes variants and iron bars' "post" state to be four sided again (pre 15w31a)
 
-- Custom en_us.json (only 1.14.4 at the moment)
+- Custom en_us.json (1.12.2 does not work)
 
 - mcpatcher/optifine related
-	* Old beta lightmap (credits to SalC1)
-	* Old pre beta 1.8 chest model (credits to 2XMM2)
+	* Old beta lightmap (custom made)
+	* Old pre beta 1.8 chest/echest model (credits to 2XMM2)
 	* Skeleton, zombie villager and zombie models (from	Classic Alternative)
-	* Old sugar cand and redstone colors (1.12.2 not working	somehow)
+	* Old redstone colors (1.12.2 not working	somehow)
+	* Grass deadbush in swamplands
 
 - Sounds
 	* Old pre 2011 sound update restored
-	* Removed other newer sounds
+	* Removed other newer sounds (see changelog)
 
 - Models
 	* Early bell, early campfire (1.14 snapshots)
@@ -44,6 +48,13 @@ FEATURES:
 	* Rotated A LOT of blocks from right to left (noticable	on stairs and on blocks like furnaces, pumpinks etc...)
 	* Old inventory models for fence gates and pressure	plates
 	* Bow has old held pose again (item-like)
+	* Old cactus and pressure plates "on ground" rendering
+	* Grass block has glitched top (in inventory)
+	* Old nether portal blocks model
+	* Big model for ender eye/ender pearl (3rd person)
+	* Powered rail in inventory uses the on state texture
+
+- Beta looking colormap for grass and foliage
 
 - Textures
 	* Readded head textures (from 1.4.2) (except for the	dragon one)
@@ -57,17 +68,20 @@ FEATURES:
 	* Iron block (from Alpha 1.2.0)
 	* Petrified Oak Slab now has missing texture (GUI/in 			hand)
 	* Old cobblestone and mossy variant
+		b1.7 cobblestone texture for infested cobble
 	* Old netherrack and glowstone
 	* Old coal block (from Minecraft 2.0/13w18a)
 	* Early cut/chiseled sandstone (from 1.2.1)
 	* Early colored glass (from 13w41a)
 	* Old oak sapling
+	* Early grass
 	* Sea grass now is animated in inventory (1.13 				snapshots)
 	* Old rose
 	* Blue Orchid has blue rose texture from Bedrock Edition
 	* Furnaces have stone top again
-	* Old item frame
+	* Old item frame (see changelog)
 	* Early campfire (from 19w02a)
+		Has default fire texture
 	* Old dispenser
 	* Redstone block has a retextured version of the Iron			Block from 0.26 SURVIVAL TEST
 	* Old doors (oak/iron from alpha, others from 14w33a)
@@ -76,7 +90,7 @@ FEATURES:
 	* Old charcoal
 	* Old leather horse armor
 	* Spawn eggs have the old outline
-	* Old food icons
+	* Old food sprites
 	* Old leather armor
 	* Lauched tipped arrows now have the unused pink stick
 	* Old cocoa beans
@@ -93,8 +107,7 @@ FEATURES:
 		* Old MC logo
 		* Beta 1.7.3 Mojang logo (1.14.4)
 	* Sun/moon from beta 1.9
-	* Enderman has green eyes and dark particles
-		This applies to nether portals and echests
+	* Enderman has green eyes
 	* Pigs have flat face again
 	* Boats no longer have oars
 	* Old slime and magma cream
@@ -103,15 +116,22 @@ FEATURES:
 	* Old infdev minecart (from june 18, 2010 version)
 	* Saddle texture changed with the one used for horse	saddles
 	* Old lava (second version from 0.0.19a)
+	* Removed several particle effects
+		Readded early counduit particles (from 18w15a)
+		Readded old angry villager particle (from 12w32a)
+	* Beds sprites from Bedrock Edition (1.14.4)
+	* Old end portal frame (from b1.9 pre3)
+	* Old reeds (sugar canes)
+	* Hopper uses cauldron texture once again
+	* Carrot item (from 12w34a)
+	* Golden carrot (from 12w36a)
 
 	* ex novo:
 		* Classic boat sprite for all the boats
-			also present in C.A.
-		* Custom beds sprites (1.14.4)
 		* Old iron armor from Survival Test (complete 				version, not implemented)
 		* Old-styled blast furnace and smoker
-			inspired from C.A.
-		* Custom wither rose
+			inspired from Classic Alternative
+		* Old-styled wither rose
 		* Blue ice resembles packed ice texture
 		* Raw/cooked rabbit now has black outline
 		* Lectern (inspired from Classic Alternative)
@@ -121,25 +141,28 @@ FEATURES:
 		* Old-styled barrel
 		* Old-styled smithing table
 		* Old-styled cartography table
-		* Old-styled prismarine variants
-		* Old-styled end stone (+ end portal frame)
-		* Petrified oak slabs now have their own texture 		(retexturing from planks texture from rd-160052)
+		* Old-styled prismarine block
+		* Old-styled end stone
+		* Petrified oak slabs now have their own texture			(retexturing from planks texture from rd-160052)
+		* Old-styled lantern
+		* Old-styled raw and cooked mutton
+		* Old-styled raw and cooked rabbit
+		* Bucked of cod and pupperfish texture
+		* Old-styled allium and lily of the valley
+		* Tall grass matches old grass texture
+		* Accessibility button now has the old cog texture
+		* "Toast" pop ups made a bit more old style
+		* Old-styled scaffold
+		* Cod entity uses palette from its item iteration
 
 	* Many not implemented textures
-
-	* from Classic Alternative resource pack
-		* Lantern
-		* Cod mob texture
-		* Bucked of cod texture
-		* Raw/cooked mutton
-		* Raw/cooked rabbit
 
 -------------------------------------------------------------
 
 Recommended settings
 * Smooth lighting off
 * Light set to moody
-* FOV set to circa 65
+* FOV set to circa 70/65
 
 -------------------------------------------------------------
 
