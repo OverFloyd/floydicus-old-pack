@@ -73,7 +73,6 @@ v1.2
 * Cod (entity) using the old cod sprite from 1.12.2
 * Scaffold
 
-
 - Moved doors variants, old rails and old furnace stone top into the new Alpha Overlay pack
 * adjusted dispensers/droppers in Old Pack
 
@@ -83,3 +82,17 @@ v1.2
 * Different textures for some double slabs, seamless variants
 
 - Updated #Cretits and features and #Copyright
+
+
+
+v1.2_01
+- Both 1.12.2 and 1.14.4
+* Fixed banners facing right in the GUI, now they're flipped to the left as for all the other blocks in the pack
+* Last update for 1.14.4
+
+- 1.12.2
+* Fixed trapdoors models (up and open models weren't present)
+
+- 1.14.4
+* Moved glass panes json files from models to models/block/panes (edited relative block states)
+* Removed terrain.png files

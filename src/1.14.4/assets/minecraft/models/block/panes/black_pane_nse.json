@@ -1,0 +1,7 @@
+{
+    "parent": "block/pane_nse",
+    "textures": {
+        "edge": "block/black_stained_glass_pane_top",
+        "pane": "block/black_stained_glass"
+    }
+}

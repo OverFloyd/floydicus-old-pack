@@ -44,11 +44,11 @@ FEATURES:
 
 - Models
 	* Early bell, early campfire (1.14 snapshots)
-	* Old stonecutter (from Bedrock Edition!)
+	* Old stonecutter (from Pocket Edition!)
 	* Rotated A LOT of blocks from right to left (noticable	on stairs and on blocks like furnaces, pumpinks etc...)
-	* Old inventory models for fence gates and pressure	plates
+	* Old inventory models for fence gates and pressure	 	plates
 	* Bow has old held pose again (item-like)
-	* Old cactus and pressure plates "on ground" rendering
+	* Old cactus, pressure plates, stairs, trapdoors and 	fences "on ground" rendering
 	* Grass block has glitched top (in inventory)
 	* Old nether portal blocks model
 	* Big model for ender eye/ender pearl (3rd person)
