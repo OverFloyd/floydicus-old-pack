@@ -1267,6 +1267,10 @@
     "sounds": [
       {
         "name": "random/door_close"
+      },
+      {
+        "type": "event",
+        "name": "block.chest.open"
       }
     ]
   },
@@ -1276,6 +1280,10 @@
     "sounds": [
       {
         "name": "random/door_open"
+      },
+      {
+        "type": "event",
+        "name": "block.chest.close"
       }
     ]
   },
@@ -2651,6 +2659,67 @@
     "sounds": [
       {
         "name": "blank"
+      }
+    ]
+  },
+  "block.honey_block.break": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      {
+        "type": "event",
+        "name": "block.slime_block.break"
+      }
+    ]
+  },
+  "block.honey_block.fall": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      {
+        "type": "event",
+        "name": "block.slime_block.fall"
+      }
+    ]
+  },
+  "block.honey_block.hit": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      {
+        "type": "event",
+        "name": "block.slime_block.hit"
+      }
+    ]
+  },
+  "block.honey_block.place": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      {
+        "type": "event",
+        "name": "block.slime_block.place"
+      }
+    ]
+  },
+  "block.honey_block.slide": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      {
+        "type": "event",
+        "name": "block.slime_block.fall",
+	"volume": 0.25
+      }
+    ]
+  },
+  "block.honey_block.step": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      {
+        "type": "event",
+        "name": "block.slime_block.step"
       }
     ]
   }

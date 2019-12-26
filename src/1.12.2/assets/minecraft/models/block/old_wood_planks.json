@@ -1,6 +1,7 @@
 {
-    "parent": "block/cube_all",
+    "parent": "block/cube_all_particles",
     "textures": {
-        "all": "blocks/wooden_slab"
+        "all": "blocks/wooden_slab",
+        "particle": "blocks/stone"
     }
 }

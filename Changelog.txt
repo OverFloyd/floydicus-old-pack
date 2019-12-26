@@ -65,10 +65,10 @@ v1.2
 * Golden carrot sprite from 12w36a
 
 - Retextured:
-* lantern
-* allium and lily of the valley
-* accessibility button now has the old cog texture
-* "toast" pop ups made a bit more old style
+* Lantern
+* Allium and lily of the valley
+* Accessibility button now has the old cog texture
+* "Toast" pop ups made a bit more old style
 * Made the Mojang logo have trasparency
 * Cod (entity) using the old cod sprite from 1.12.2
 * Scaffold
@@ -96,3 +96,29 @@ v1.2_01
 - 1.14.4
 * Moved glass panes json files from models to models/block/panes (edited relative block states)
 * Removed terrain.png files
+
+v1.3 - 1.15.X
+- Updated to 1.15
+* Removed item frame background image file
+* Randomized opening/closing sound events for doors/fence gates/trapdoors/chests
+* Made honey blocks look and sound like slime blocks
+* Petrified oak slabs now emit stone particles like it was in beta
+* Reworked campfire's model, now uses block/fire and fire_0 textures
+* Removed iron golem's cracked states
+* Added custom texture for barrel in inventory (inspired from a BE unused texture)
+* Rotated walls
+* Fixed chests (updated to 1.15's new format)
+
+- Retextured:
+* Beehive
+* Campfire (based on the early 1.14 snapshots model)
+
+- 1.2_02 (1.12.2)
+* Fixed lit furnace (had leftover texture from Alpha Overlay)
+* Updated lightmap
+* Removed mcpatcher folder
+* Added flat heads textures
+* Rotated fence gates
+* Cleaned a lot of jsons and useless sounds, edited "block" template
+* Old wooden planks/slabs now emit stone particles
+* Fixed trapdoor upper state displaying incorrect texture section

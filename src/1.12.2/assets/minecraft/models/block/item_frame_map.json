@@ -1,17 +1,9 @@
 {
     "textures": {
         "particle": "blocks/planks_oak",
-        "wood": "blocks/planks_oak",
-        "back": "blocks/itemframe_background"
+        "wood": "blocks/planks_oak"
     },
     "elements": [
-        {   "from": [ 1, 1, 15.001 ],
-            "to": [ 15, 15, 16 ],
-            "faces": {
-                "north": { "uv": [ 1, 1, 15, 15 ], "texture": "#back" },
-                "south": { "uv": [ 1, 1, 15, 15 ], "texture": "#back" }
-            }
-        },
         {   "from": [ 0, 0, 15.001 ],
             "to": [ 16, 1, 16 ],
             "faces": {

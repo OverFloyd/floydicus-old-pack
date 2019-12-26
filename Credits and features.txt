@@ -6,16 +6,21 @@ Project started: feb 23, 2019 (1.13.2)
 			 aug 12, 2019 (1.12.2)
 
 1.14.4
-First release v1.0: aug 13, 2019
-Second release v1.1: sept 8, 2019
-Third release v1.1.1: sept 18, 2019
-Fourth release v1.2: dec 8, 2019
+v1.0: aug 13, 2019
+v1.1: sept 8, 2019
+v1.1.1: sept 18, 2019
+v1.2: dec 8, 2019
+v1.2_01: dec 10, 2019
+v1.3: soon??
 
 1.12.2
 v1.0: sept 14, 2019
 v1.1: sept 28, 2019
 v1.2 preview: oct 11, 2019
 v1.2: dec 8, 2019
+v1.2_01: dec 10, 2019
+v1.2_02: dec 26, 2019
+
 -------------------------------------------------------------
 
 FEATURES:
@@ -80,7 +85,6 @@ FEATURES:
 	* Blue Orchid has blue rose texture from Bedrock Edition
 	* Furnaces have stone top again
 	* Old item frame (see changelog)
-	* Early campfire (from 19w02a)
 		Has default fire texture
 	* Old dispenser
 	* Redstone block has a retextured version of the Iron			Block from 0.26 SURVIVAL TEST
@@ -154,6 +158,8 @@ FEATURES:
 		* "Toast" pop ups made a bit more old style
 		* Old-styled scaffold
 		* Cod entity uses palette from its item iteration
+		* Bee hive
+		* Campfire (model from 19w02a)
 
 	* Many not implemented textures
 
