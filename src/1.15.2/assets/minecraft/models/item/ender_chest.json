@@ -1,0 +1,9 @@
+{
+    "parent": "block/orientable_with_bottom",
+    "textures": {
+        "top": "block/ender_chest_top",
+        "bottom": "block/ender_chest_bottom",
+        "front": "block/ender_chest_front",
+        "side": "block/ender_chest_side"
+    }
+}

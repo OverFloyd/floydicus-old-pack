@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "block/carved_pumpkin",
+        "up": "block/pumpkin_top",
+        "down": "block/pumpkin_top",
+        "east": "block/pumpkin_side",
+        "west": "block/carved_pumpkin",
+        "south": "block/pumpkin_side",
+        "north": "block/pumpkin_side"
+    }
+}

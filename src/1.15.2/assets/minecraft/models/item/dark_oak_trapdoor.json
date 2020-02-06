@@ -1,0 +1,6 @@
+{
+    "parent": "item/trapdoor_inv",
+    "textures": {
+        "texture": "block/dark_oak_trapdoor"
+    }
+}

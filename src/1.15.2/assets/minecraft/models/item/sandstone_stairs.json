@@ -1,0 +1,6 @@
+{
+    "parent": "item/stairs_inv",
+    "textures": {
+        "texture": "block/sandstone"
+    }
+}
