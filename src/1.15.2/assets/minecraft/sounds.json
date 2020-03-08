@@ -1129,6 +1129,66 @@
       }
     ]
   },
+  "block.bamboo_sapling.hit": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      {
+        "type": "event",
+        "name": "block.grass.break"
+      }
+    ]
+  },
+  "block.bamboo.break": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      {
+        "type": "event",
+        "name": "block.grass.break"
+      }
+    ]
+  },
+  "block.bamboo.fall": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      {
+        "type": "event",
+        "name": "block.grass.break"
+      }
+    ]
+  },
+  "block.bamboo.hit": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      {
+        "type": "event",
+        "name": "block.grass.break"
+      }
+    ]
+  },
+  "block.bamboo.place": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      {
+        "type": "event",
+        "name": "block.grass.break"
+      }
+    ]
+  },
+  "block.bamboo.step": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      {
+        "type": "event",
+        "name": "block.grass.break"
+      }
+    ]
+  },
   "block.crop.break": {
     "category": "ambient",
     "replace": true,
@@ -1416,6 +1476,16 @@
     ]
   },
   "block.sand.step": {
+    "category": "block",
+    "replace": true,
+    "sounds": [
+      {
+        "type": "event",
+        "name": "block.sand.place"
+      }
+    ]
+  },
+  "block.sand.hit": {
     "category": "block",
     "replace": true,
     "sounds": [
@@ -1838,7 +1908,7 @@
     ]
   },
   "entity.drowned.ambient": {
-    "category": "block",
+    "category": "ambient",
     "replace": true,
     "sounds": [
       {
@@ -2777,7 +2847,16 @@
       }
     ]
   },
-  "block.beehive.drip": {
+  "block.beehive.enter": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      {
+        "name": "blank"
+      }
+    ]
+  },
+  "block.beehive.exit": {
     "category": "ambient",
     "replace": true,
     "sounds": [
@@ -2838,6 +2917,76 @@
     "sounds": [
       {
         "name": "blank"
+      }
+    ]
+  },
+  "entity.bee.pollinate": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      {
+        "type": "event",
+        "name": "block.grass.break"
+      }
+    ]
+  },
+  "entity.bee.sting": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.arrow.hit"
+      }
+    ]
+  },
+  "entity.enderman.ambient": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.zombie.ambient"
+      }
+    ]
+  },
+  "entity.enderman.death": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.zombie.death"
+      }
+    ]
+  },
+  "entity.enderman.hurt": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.zombie.hurt"
+      }
+    ]
+  },
+  "entity.enderman.stare": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.zombie.ambient"
+      }
+    ]
+  },
+  "entity.enderman.scream": {
+    "category": "ambient",
+    "replace": true,
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.zombie.ambient"
       }
     ]
   }

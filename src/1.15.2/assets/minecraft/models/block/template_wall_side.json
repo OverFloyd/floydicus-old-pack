@@ -12,8 +12,8 @@
 				"north": {"uv": [5, 2, 11, 16], "texture": "#wall", "cullface": "north"},
 				"east": {"uv": [8, 2, 16, 16], "texture": "#wall"},
 				"west": {"uv": [0, 2, 8, 16], "texture": "#wall"},
-				"up": {"uv": [5, 0, 11, 8], "rotation": 180, "texture": "#wall"},
-				"down": {"uv": [11, 0, 5, 8], "texture": "#wall", "cullface": "down"}
+				"up": {"uv": [5, 8, 11, 16], "rotation": 180, "texture": "#wall"},
+				"down": {"uv": [5, 16, 11, 8], "rotation": 180, "texture": "#wall", "cullface": "down"}
 			}
 		}
 	]
