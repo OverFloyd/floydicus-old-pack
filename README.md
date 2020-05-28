@@ -1,5 +1,4 @@
 # Floydicus-Old-Pack
-
 Hello people, last year I started a private resource pack which had the goal of reproducing Minecraft Beta as much as possible. Using classic textures, custom models, blockstates and everything in the between.
 
 After working on it for nearly a year with feedback from several people, I've decided to make this public to everyone to enjoy.
@@ -11,6 +10,7 @@ The packs for each version are under <code>src/</code>
 
 
 **CHANGELOG**
+
 **v1.1.1**
 - Rotated 3D models for lapis and redstone block (GUI)
 - Retextured:

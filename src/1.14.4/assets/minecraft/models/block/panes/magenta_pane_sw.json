@@ -1,7 +1,0 @@
-{
-    "parent": "block/pane_sw",
-    "textures": {
-        "edge": "block/magenta_stained_glass_pane_top",
-        "pane": "block/magenta_stained_glass"
-    }
-}

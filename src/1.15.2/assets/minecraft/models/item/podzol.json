@@ -1,0 +1,9 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "particle": "block/podzol_side",
+        "bottom": "block/podzol_side",
+        "top": "block/podzol_side",
+        "side": "block/podzol_side"
+    }
+}

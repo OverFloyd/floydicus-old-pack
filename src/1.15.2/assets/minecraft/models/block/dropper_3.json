@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "block/dropper_front",
+        "up": "block/furnace_top",
+        "down": "block/furnace_top",
+        "east": "block/furnace_side",
+        "west": "block/dropper_front",
+        "south": "block/furnace_side",
+        "north": "block/furnace_side"
+    }
+}

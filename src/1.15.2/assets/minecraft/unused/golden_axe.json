@@ -1,0 +1,91 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/golden_axe"
+	},
+	"overrides": [{
+			"predicate": {
+				"damage": 0.07
+			},
+			"model": "item/damaged/golden_axe_1"
+		},
+		{
+			"predicate": {
+				"damage": 0.14
+			},
+			"model": "item/damaged/golden_axe_2"
+		},
+		{
+			"predicate": {
+				"damage": 0.21
+			},
+			"model": "item/damaged/golden_axe_3"
+		},
+		{
+			"predicate": {
+				"damage": 0.28
+			},
+			"model": "item/damaged/golden_axe_4"
+		},
+		{
+			"predicate": {
+				"damage": 0.35
+			},
+			"model": "item/damaged/golden_axe_5"
+		},
+		{
+			"predicate": {
+				"damage": 0.42
+			},
+			"model": "item/damaged/golden_axe_6"
+		},
+		{
+			"predicate": {
+				"damage": 0.5
+			},
+			"model": "item/damaged/golden_axe_7"
+		},
+		{
+			"predicate": {
+				"damage": 0.57
+			},
+			"model": "item/damaged/golden_axe_8"
+		},
+		{
+			"predicate": {
+				"damage": 0.64
+			},
+			"model": "item/damaged/golden_axe_9"
+		},
+		{
+			"predicate": {
+				"damage": 0.71
+			},
+			"model": "item/damaged/golden_axe_10"
+		},
+		{
+			"predicate": {
+				"damage": 0.78
+			},
+			"model": "item/damaged/golden_axe_11"
+		},
+		{
+			"predicate": {
+				"damage": 0.85
+			},
+			"model": "item/damaged/golden_axe_12"
+		},
+		{
+			"predicate": {
+				"damage": 0.92
+			},
+			"model": "item/damaged/golden_axe_13"
+		},
+		{
+			"predicate": {
+				"damage": 1
+			},
+			"model": "item/damaged/golden_axe_14"
+		}
+	]
+}

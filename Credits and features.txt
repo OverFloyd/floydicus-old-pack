@@ -1,17 +1,20 @@
 Floydicus Old Pack
-For Minecraft 1.12.2/1.14.4
+For Minecraft 1.12.2/1.15.2
 Optifine needed, programmer art for 1.14 and above
 -------------------------------------------------------------
 Project started: feb 23, 2019 (1.13.2)
 			 aug 12, 2019 (1.12.2)
 
-1.14.4
+1.13+
 v1.0: aug 13, 2019
 v1.1: sept 8, 2019
 v1.1.1: sept 18, 2019
 v1.2: dec 8, 2019
 v1.2_01: dec 10, 2019
-v1.3: soon??
+v1.3: jan 26, 2020
+v1.3.1: jan 28, 2020
+v1.3.2: feb 29, 2020
+
 
 1.12.2
 v1.0: sept 14, 2019
@@ -32,6 +35,7 @@ FEATURES:
 	* Sad/red sand
 	* Stone and variants
 	* Lily pad
+	* Almost every rotatable block
 * Reverted all glass panes variants and iron bars' "post" state to be four sided again (pre 15w31a)
 
 - Custom en_us.json (1.12.2 does not work)
@@ -40,52 +44,52 @@ FEATURES:
 	* Old beta lightmap (custom made)
 	* Old pre beta 1.8 chest/echest model (credits to 2XMM2)
 	* Skeleton, zombie villager and zombie models (from	Classic Alternative)
-	* Old redstone colors (1.12.2 not working	somehow)
+	* Old redstone colors (1.12.2 not working somehow)
 	* Grass deadbush in swamplands
 
 - Sounds
 	* Old pre 2011 sound update restored
-	* Removed other newer sounds (see changelog)
+	* Removed other newer sounds (custom sounds.json, see 	changelog)
 
 - Models
 	* Early bell, early campfire (1.14 snapshots)
-	* Old stonecutter (from Pocket Edition!)
-	* Rotated A LOT of blocks from right to left (noticable	on stairs and on blocks like furnaces, pumpinks etc...)
+	* Rotated A LOT of blocks from right to left (noticable	on stairs and on blocks like furnaces, pumpkins etc...)
 	* Old inventory models for fence gates and pressure	 	plates
 	* Bow has old held pose again (item-like)
 	* Old cactus, pressure plates, stairs, trapdoors and 	fences "on ground" rendering
-	* Grass block has glitched top (in inventory)
+	* Trapdoors have the old glitched side texture
+	* Grass block, mycelium and podzol has six sided texture	model (in inventory)
 	* Old nether portal blocks model
-	* Big model for ender eye/ender pearl (3rd person)
+	* Big model for ender eye (3rd person)
 	* Powered rail in inventory uses the on state texture
+	* Honey block has a slime block-ish model
+	* Lots more!
 
 - Beta looking colormap for grass and foliage
 
 - Textures
 	* Readded head textures (from 1.4.2) (except for the	dragon one)
-		Only 1.14.4 due to how Minecraft worked before 			1.13.2
-	* All logs have oak top again
+	* All logs/stripped variants and have oak top again
 		Acacia log has 1.7 snapshots texture
 	* Old gravel
 	* Old sponge
 	* Old lapis block
 	* Pre 1.12 wool and shulkers
 	* Iron block (from Alpha 1.2.0)
-	* Petrified Oak Slab now has missing texture (GUI/in 			hand)
+	* Petrified Oak Slab now has missing texture (GUI/in	hand)
 	* Old cobblestone and mossy variant
-		b1.7 cobblestone texture for infested cobble
+		b1.7 cobblestone (but fixed) texture for infested 		cobble
 	* Old netherrack and glowstone
 	* Old coal block (from Minecraft 2.0/13w18a)
 	* Early cut/chiseled sandstone (from 1.2.1)
 	* Early colored glass (from 13w41a)
 	* Old oak sapling
-	* Early grass
+	* Early grass (from beta 1.5)
 	* Sea grass now is animated in inventory (1.13 				snapshots)
 	* Old rose
 	* Blue Orchid has blue rose texture from Bedrock Edition
 	* Furnaces have stone top again
-	* Old item frame (see changelog)
-		Has default fire texture
+	* Old item frame (from http://media.dinnerbone.com/uploads/2012-08/screenshots/Minecraft_2012-08-15_16-20-33.png)
 	* Old dispenser
 	* Redstone block has a retextured version of the Iron			Block from 0.26 SURVIVAL TEST
 	* Old doors (oak/iron from alpha, others from 14w33a)
@@ -124,42 +128,49 @@ FEATURES:
 		Readded early counduit particles (from 18w15a)
 		Readded old angry villager particle (from 12w32a)
 	* Beds sprites from Bedrock Edition (1.14.4)
+	* Beds emit stone particles again
 	* Old end portal frame (from b1.9 pre3)
 	* Old reeds (sugar canes)
-	* Hopper uses cauldron texture once again
+	* Hopper uses cauldron texture once again and has the	WIP texture in the inventory
 	* Carrot item (from 12w34a)
 	* Golden carrot (from 12w36a)
+	* Old stonecutter (from Pocket Edition!)
+	* Conduit now uses texture from mob_effect
+	* Minecon 2018 corals
 
 	* ex novo:
 		* Classic boat sprite for all the boats
-		* Old iron armor from Survival Test (complete 				version, not implemented)
-		* Old-styled blast furnace and smoker
+		* Blast furnace and smoker
 			inspired from Classic Alternative
-		* Old-styled wither rose
+		* Wither rose
 		* Blue ice resembles packed ice texture
-		* Raw/cooked rabbit now has black outline
-		* Lectern (inspired from Classic Alternative)
-		* Old-styled composter
-		* Old-styled loom
-		* Old-styled fletching table
-		* Old-styled barrel
-		* Old-styled smithing table
-		* Old-styled cartography table
-		* Old-styled prismarine block
-		* Old-styled end stone
+		* Raw/cooked rabbit and mutton now has black			outline
+		* Lectern (inspired from the old original model)
+		* Composter
+		* Loom
+		* Fletching table
+		* Barrel
+		* Smithing table
+		* Cartography table
+		* Prismarine block
+		* End stone (from the original texture)
 		* Petrified oak slabs now have their own texture			(retexturing from planks texture from rd-160052)
-		* Old-styled lantern
-		* Old-styled raw and cooked mutton
-		* Old-styled raw and cooked rabbit
+			They emit stone particles again
+		* Lantern
 		* Bucked of cod and pupperfish texture
-		* Old-styled allium and lily of the valley
+		* Allium and lily of the valley (rose styled)
 		* Tall grass matches old grass texture
 		* Accessibility button now has the old cog texture
 		* "Toast" pop ups made a bit more old style
-		* Old-styled scaffold
+		* Scaffold
 		* Cod entity uses palette from its item iteration
 		* Bee hive
 		* Campfire (model from 19w02a)
+		* Bee nest
+		* Emerald block
+		* Honey block
+		* Magma block
+		* Coral blocks (missing variants added later)
 
 	* Many not implemented textures
 
@@ -168,11 +179,18 @@ FEATURES:
 Recommended settings
 * Smooth lighting off
 * Light set to moody
-* FOV set to circa 70/65
+* FOV set to normal (70)
 
 -------------------------------------------------------------
 
 Let me know if there are any issues or any suggestions at OverFloyd#2686 on discord or u/OverFloyd on reddit. Credits to Mojang for the original textures.
+
+I took inspiration mainly from:
+- Classic Alternative
+- Minecraft First Edition
+- Golden Days
+
+Every texture (except except those that are indicated) are property of Mojang AB.
 
 OverFloyd
 August 13, 2019
