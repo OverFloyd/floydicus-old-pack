@@ -1,34 +1,173 @@
-# Floydicus-Old-Pack
-Hello people, last year I started a private resource pack which had the goal of reproducing Minecraft Beta as much as possible. Using classic textures, custom models, blockstates and everything in the between.
+# Floydicus Old Pack
+Hello people, in 2019 I started a private resource pack which had the goal of reproducing Minecraft Beta as much as possible. Using classic textures, custom models, blockstates and everything in between. After working on it for nearly a year with feedback from several people, I've decided to make this public to everyone to enjoy.
 
-After working on it for nearly a year with feedback from several people, I've decided to make this public to everyone to enjoy.
+The resource pack is being developed for both 1.13+ and 1.12.2 versions (not very complete still). The packs for each version are under <code>src/</code>
 
-The resource pack is being developed for both versions 1.15.X and 1.12.2 (still in development), an older version for 1.12.2.
-The packs for each version are under <code>src/</code>
+* Planet Minecraft page [here](https://www.planetminecraft.com/texture_pack/floydicus-old-pack/).
 
-[Planet Minecraft](https://www.planetminecraft.com/texture_pack/floydicus-old-pack/) page.
+## CHANGELOG
+### v1.5 - 1.19.X
+* Retextured: copper ore, moss block/carpet, copper block(s), snow bucket, copper ingot, axlotl bucket, spyglass, bundle (from 20w45a), azalea (normal & flowering variant)*, azalea leaves, amethyst block & budding[1], glow item frame (lighter version of already existing item frame), smooth basalt, cave vines, deepslate blocks
+* Fixed stairs rotation, fence gates, pressure plates and trapdoors models in inventory
+* Shaders and skies from Developer Art Classic
+* Old enchant shader
 
+[1] Inspired by [Developer Art Classic](https://www.planetminecraft.com/texture-pack/devart-classic/).
 
-**CHANGELOG**
+### v1.4.1 - 1.16.5
+* (Finally) retextured piglin brute, adjusted texture for piglin and adjusted sounds for both
+* Adjusted texture for Fungus on a Stick
+* Adjusted GuiMainMenu background not being in the correct resolution
+* Fix single chests (OptiFine), haven't messed with double ones yet
 
-**v1.1.1**
-- Rotated 3D models for lapis and redstone block (GUI)
-- Retextured:
-* loom
-* barrel
-* cartography table
-* fletching table
-* smithing table
-* end stone and end portal frame
-* redstone block (uses a retextured version of the first version of the iron block)
-* lectern
-* petrified wooden slab
-* observer (from 16w43a)
-* mirrored oak door from Infdev
+### v1.4s - 1.16
+* Adjusted a bunch of sounds for new blocks
 
-**v1.2**
-- Cleaned up the pack from redundant textures
-- Added textures and related json files when necessary:
+### v1.4 - 1.16
+* Retextured nether grass, basalt, mushrooms, shroomlight, nether planks/stem, netherite block, nether vines, ancient debris, nether gold ore, respawn anchor, polished basalt, lodestone, blackstone and variants, cracked nether brick, chiselled nether brick, quartz bricks, chains
+* Included soul soil texture by Misterk7_-, from https://www.planetminecraft.com/texture_pack/classic-nether-textures-on-1-16/
+* Added custom models for new fences, fencegates, trapdoors, pressure plates, doors etc
+* Pots and redstone don't have a bottom texture again
+* Piglins have the old pigman skin (adapted)
+* Zombie Piglins have an adapted version of the pigman skin
+* Reverted and adjusted newer sounds
+* Removed crying obsidian particles
+* Updated walls blockstates
+* Anvil.json is now template_anvil and it applies to all anvil variants
+* Fire related jsons fixed (name of the parent model was changed)
+* Removed "soul" particle
+* Missing/obstructed bed original text message (already present but ye)
+* Campfire w/ soul variant now have a 3D model in the GUI
+* Soul campfire has neutral blockstates aswell
+* Retextured warped and crimson signs
+
+### v1.3.2
+* Bamboo (w/ potted version) now uses 2D "cross" template, adjusted sounds
+* Removed grass block side texture overlay
+* Cornerless legs for cauldrons (pre 1.8)
+* "Can't reach server" and "Polling..." text on multiplayer menu
+* Retextured honey block (Minecon 2019 version)
+* Retextured magma block
+* Fixed a bunch of names in lang.json
+* Old Enderman sounds
+* Fixed incorrect texture mapping in template_trapdoor_open.json
+* Fixed acacia trapdoor having wrong side texture for the open state
+* Cauldron has grass_block_top texture in the inventory
+* Fixed hitting sand having new sounds
+* Removed some redundant textures
+* Removed the bearded steve skin and added it to the Alpha Pack (it was a feature in 0.24_SURVIVAL_TEST)
+* Beds now have oak planks as bottom texture again
+* Removed conduit texture (gui)
+* Lily pads now only face north
+* Fixed fences not having custom blockstates
+* Removed horse saddle (too new, doesn't fit)
+* Retextured Phantom off the early texture from 18w07a
+* Lantern now actually has proper metallic-like sounds
+* Honeycomb block retextured by Misterk7_-
+* Fixed enchanting table wrong texture mapping
+* Removed underwater particles
+* Campfire has neutral blockstates aswell
+* Deleted charcoal texture and created a new blockmodel for it that uses the coal texture
+* Made iron nugget resemble more the gold nugget
+* Fixed Jigsaw block having new texture(s)
+
+### v1.3.1
+* Fixed leaves.json being broken
+* Fixed Iron Golems having sounds
+* Fixed wrong textures on sandstone/red sandstone stairs
+* End stone texture obtained from the original
+* Retextured bee nest (fixed some issues with its and beehive custom models)
+* Removed "drip" and "work" sounds from bee nest/hive, "shear" sound changed to wool.break
+* Gray scaled gui wise: leaves, grass and ferns (normal, tall)
+* Fixed wrong orientations 1st/3rd person
+* Grass block now has 6 sided texture properly, aswell as mycelium and podzol
+* Fixed player death sound having the newer one (event uses blank.ogg due to the sound overlapping with entity.player.hurt)
+* Retextured lectern (uses spruce textures and old golden base)
+* Custom player heads now display player's face texture again
+* "You can only sleep at night" is back again
+* XP orbs don't make sounds when collected again
+* Removed sound for flowing water
+* Removed sounds for infecting/curing a villager
+* Fixed nether brick stairs having cobblestone texture
+* Fixed inner_stairs and variants (one cube was badly mapped and causing issues on sandstone stairs)
+* Retextured tulips (flowers)
+* Added old end sky
+* Fixed walls, fences and fence gates bad texture mapping (more custom models)
+* Fixed z-fighting on e-chest front texture (for vanilla model)
+* Minecon 2018 corals + new textures for missing ones
+
+### v1.3 - 1.15.X
+Updated to 1.15
+* Removed item frame background image file
+* Randomized opening/closing sound events for doors/fence gates/trapdoors/chests
+* Made honey blocks look and sound like slime blocks
+* Petrified oak slabs now emit stone particles like it was in beta
+* Reworked campfire's model, now uses block/fire and fire_0 textures
+* Removed iron golem's cracked states
+* Added custom texture for barrel in inventory (inspired from a BE unused texture)
+* Rotated walls and fences
+* Fixed chests (updated to 1.15's new format)
+* Lectern: fixed awful side texture, fixed rotation angles (GUI)
+* Cleaned a lot of useless files (GUI display moved to block.json)
+* Stairs now have a custom model for GUI
+* Correct angle for buttons and onground bigger model
+* Trapdoors now have the "correct" side texture and they're now centered (GUI)
+* Correct model for pressure plates (original is 4 pixed high, old one was 3)
+* Moved various sprites by 1 pixel
+* Carved pumpkin, jack o' lantern, furnace, blast furnace, smoker, beehive, bee nest, dispenser and dropper now have separate models for all orientations
+* Beds now have stone particles
+* Removed critical hit particles
+* Chest/trapped/echest now have the old model in the gui
+* Made water texture vanilla friendly (gray scaled) and additional colormap texture for when using optifine
+* Removed beta 1.9 pre3 sun/moon, now uses Alpha Overlay's version
+* Mirrored all the blocks (cube.json/orientable.json): both #top and #bottom textures now face north
+* Fixed fence gates, original one was 1 px higher (custom fence_gate_inv.json)
+* Stairs: old model and glitched textures, adapted inner and outer bottom/top states (a lot of jsons and blockstates)
+* Block.json: makes all the blocks render left in the gui (with correct top texture) and old orientation in 1st person
+* Adapted various block models due to the custom cube.json (grass block, path, snow layers, petrified wooden slabs)
+* Emerald block now has a gold/diamond/iron blockish texture
+* Stripped logs now have oak top
+* Fixed fishes angle in inventory (1st person from beta 1.8)
+* Hopper has the "wip" sprite
+* Fixed spawn egg overlay (now shows up correctly without z fighting)
+* Conduit now uses texture from mob_effect
+
+Retextured:
+* Beehive
+* Campfire (based on the early 1.14 snapshots model)
+* Lantern
+* Smithing table (again)
+* Smoker (wooden part now uses oak_log texture)
+
+1.12.2 (WIP!)
+* Added smooth variant for cobblestone and a separated texture for infested cobble
+
+### 1.2_02 (1.12.2)
+* Fixed lit furnace (had leftover texture from Alpha Overlay)
+* Updated lightmap
+* Removed mcpatcher folder
+* Added flat heads textures
+* Rotated fence gates
+* Cleaned a lot of jsons and useless sounds, edited "block" template
+* Old wooden planks/slabs now emit stone particles
+* Fixed trapdoor upper state displaying incorrect texture section
+
+### v1.2_01
+Both 1.12.2 and 1.14.4
+* Fixed banners facing right in the GUI, now they're flipped to the left as for all the other blocks in the pack
+* Last update for 1.14.4
+
+1.12.2
+* Fixed trapdoors models (up and open models weren't present)
+
+1.14.4
+* Moved glass panes json files from models to models/block/panes (edited relative block states)
+* Removed terrain.png files
+
+### v1.2
+* Cleaned up the pack from redundant textures
+Added textures and related json files when necessary:
+
 * Old infdev rails
 * Andesite, diorite, granite, stone bricks variants and end	stone bricks now have a custom made double slab texture
 * Old water
@@ -75,7 +214,7 @@ The packs for each version are under <code>src/</code>
 * Carrot item sprite from 12w34a
 * Golden carrot sprite from 12w36a
 
-- Retextured:
+Retextured:
 * Lantern
 * Allium and lily of the valley
 * Accessibility button now has the old cog texture
@@ -84,137 +223,27 @@ The packs for each version are under <code>src/</code>
 * Cod (entity) using the old cod sprite from 1.12.2
 * Scaffold
 
-- Moved doors variants, old rails and old furnace stone top into the new Alpha Overlay pack
+Moved doors variants, old rails and old furnace stone top into the new Alpha Overlay pack
 * adjusted dispensers/droppers in Old Pack
 
 
-- 1.12.2
+1.12.2
 * Added petrified oak texture for wooden slabs
 * Different textures for some double slabs, seamless variants
+* Updated #Credits and features and #Copyright
 
-- Updated #Cretits and features and #Copyright
+### v1.1.1
+* Rotated 3D models for lapis and redstone block (GUI)
 
-
-
-**v1.2_01**
-- Both 1.12.2 and 1.14.4
-* Fixed banners facing right in the GUI, now they're flipped to the left as for all the other blocks in the pack
-* Last update for 1.14.4
-
-- 1.12.2
-* Fixed trapdoors models (up and open models weren't present)
-
-- 1.14.4
-* Moved glass panes json files from models to models/block/panes (edited relative block states)
-* Removed terrain.png files
-
-
-
-**- 1.2_02 (1.12.2)**
-* Fixed lit furnace (had leftover texture from Alpha Overlay)
-* Updated lightmap
-* Removed mcpatcher folder
-* Added flat heads textures
-* Rotated fence gates
-* Cleaned a lot of jsons and useless sounds, edited "block" template
-* Old wooden planks/slabs now emit stone particles
-* Fixed trapdoor upper state displaying incorrect texture section
-
-
-
-**v1.3 - 1.15.X**
-- Updated to 1.15
-* Removed item frame background image file
-* Randomized opening/closing sound events for doors/fence gates/trapdoors/chests
-* Made honey blocks look and sound like slime blocks
-* Petrified oak slabs now emit stone particles like it was in beta
-* Reworked campfire's model, now uses block/fire and fire_0 textures
-* Removed iron golem's cracked states
-* Added custom texture for barrel in inventory (inspired from a BE unused texture)
-* Rotated walls and fences
-* Fixed chests (updated to 1.15's new format)
-* Lectern: fixed awful side texture, fixed rotation angles (GUI)
-* Cleaned a lot of useless files (GUI display moved to block.json)
-* Stairs now have a custom model for GUI
-* Correct angle for buttons and onground bigger model
-* Trapdoors now have the "correct" side texture and they're now centered (GUI)
-* Correct model for pressure plates (original is 4 pixed high, old one was 3)
-* Moved various sprites by 1 pixel
-* Carved pumpkin, jack o' lantern, furnace, blast furnace, smoker, beehive, bee nest, dispenser and dropper now have separate models for all orientations
-* Beds now have stone particles
-* Removed critical hit particles
-* Chest/trapped/echest now have the old model in the gui
-* Made water texture vanilla friendly (gray scaled) and additional colormap texture for when using optifine
-* Removed beta 1.9 pre3 sun/moon, now uses Alpha Overlay's version
-* Mirrored all the blocks (cube.json/orientable.json): both #top and #bottom textures now face north
-* Fixed fence gates, original one was 1 px higher (custom fence_gate_inv.json)
-* Stairs: old model and glitched textures, adapted inner and outer bottom/top states (a lot of jsons and blockstates)
-* Block.json: makes all the blocks render left in the gui (with correct top texture) and old orientation in 1st person
-* Adapted various block models due to the custom cube.json (grass block, path, snow layers, petrified wooden slabs)
-* Emerald block now has a gold/diamond/iron blockish texture
-* Stripped logs now have oak top
-* Fixed fishes angle in inventory (1st person from beta 1.8)
-* Hopper has the "wip" sprite
-* Fixed spawn egg overlay (now shows up correctly without z fighting)
-* Conduit now uses texture from mob_effect
-
-- Retextured:
-* Beehive
-* Campfire (based on the early 1.14 snapshots model)
-* Lantern
-* Smithing table (again)
-* Smoker (wooden part now uses oak_log texture)
-
-1.12.2 (WIP!)
-* Added smooth variant for cobblestone and a separated texture for infested cobble
-
-
-
-**v1.3.1**
-* Fixed leaves.json being broken
-* Fixed Iron Golems having sounds
-* Fixed wrong textures on sandstone/red sandstone stairs
-* End stone texture obtained from the original
-* Retextured bee nest (fixed some issues with its and beehive custom models)
-* Removed "drip" and "work" sounds from bee nest/hive, "shear" sound changed to wool.break
-* Gray scaled gui wise: leaves, grass and ferns (normal, tall)
-* Fixed wrong orientations 1st/3rd person
-* Grass block now has 6 sided texture properly, aswell as mycelium and podzol
-* Fixed player death sound having the newer one (event uses blank.ogg due to the sound overlapping with entity.player.hurt)
-* Retextured lectern (uses spruce textures and old golden base)
-* Custom player heads now display player's face texture again
-* "You can only sleep at night" is back again
-* XP orbs don't make sounds when collected again
-* Removed sound for flowing water
-* Removed sounds for infecting/curing a villager
-* Fixed nether brick stairs having cobblestone texture
-- Fixed inner_stairs and variants (one cube was badly mapped and causing issues on sandstone stairs)
-- Retextured tulips (flowers)
-- Added old end sky
-- Fixed walls, fences and fence gates bad texture mapping (more custom models)
-- Fixed z-fighting on e-chest front texture (for vanilla model)
-- Minecon 2018 corals + new textures for missing ones
-
-
-
-**v1.3.2**
-- Bamboo (w/ potted version) now uses 2D "cross" template, adjusted sounds
-- Removed grass block side texture overlay
-- Cornerless legs for cauldrons (pre 1.8)
-- "Can't reach server" and "Polling..." text on multiplayer menu
-- Retextured honey block (off the slime block texture)
-- Retextured magma block
-- Fixed a bunch of names in lang.json
-- Old Enderman sounds
-- Fixed incorrect texture mapping in template_trapdoor_open.json
-- Fixed acacia trapdoor having wrong side texture for the open state
-- Cauldron has grass_block_top texture in the inventory
-- Fixed hitting sand having new sounds
-
-
-
-**v1.4 - 1.16**
-- Retextured nether grass, basalt, mushrooms, lightshroom, nether planks/stem, netherite block, nether vines, ancient debris
-- Added custom models for new fences, fencegates, trapdoors, pressure plates, doors etc
-- Pots and redstone don't have a bottom texture again
-- Reverted and adjusted newer sounds (TO DO)
+Retextured:
+* loom
+* barrel
+* cartography table
+* fletching table
+* smithing table
+* end stone and end portal frame
+* redstone block (uses a retextured version of the first version of the iron block)
+* lectern
+* petrified wooden slab
+* observer (from 16w43a)
+* mirrored oak door from Infdev
