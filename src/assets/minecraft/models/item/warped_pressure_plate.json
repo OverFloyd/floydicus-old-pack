@@ -1,0 +1,6 @@
+{
+	"parent": "item/pressure_plate_inv",
+	"textures": {
+		"texture": "block/warped_planks"
+	}
+}

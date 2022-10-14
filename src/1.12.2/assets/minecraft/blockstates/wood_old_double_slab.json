@@ -1,6 +1,0 @@
-{
-    "variants": {
-        "normal": { "model": "old_wood_planks" },
-        "all":    { "model": "old_wood_planks" }
-    }
-}

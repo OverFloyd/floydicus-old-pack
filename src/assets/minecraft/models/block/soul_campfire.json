@@ -1,0 +1,11 @@
+{
+    "parent": "block/template_campfire",
+    "textures": {
+        "top": "block/soul_campfire_top_on",
+        "bottom": "block/oak_log",
+        "side": "block/campfire_side",
+        "fire": "block/soul_fire_0",
+        "fire1": "block/soul_fire_1"
+    }
+  }
+}

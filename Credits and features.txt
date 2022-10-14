@@ -14,6 +14,9 @@ v1.2_01: dec 10, 2019
 v1.3: jan 26, 2020
 v1.3.1: jan 28, 2020
 v1.3.2: feb 29, 2020
+v1.4: jun 24, 2020
+v1.4s: jul 1, 2020
+v1.4.1: jan 11, 2021
 
 
 1.12.2
@@ -43,22 +46,22 @@ FEATURES:
 - mcpatcher/optifine related
 	* Old beta lightmap (custom made)
 	* Old pre beta 1.8 chest/echest model (credits to 2XMM2)
-	* Skeleton, zombie villager and zombie models (from	Classic Alternative)
+	* Skeleton, zombie villager and zombie models (from Classic Alternative)
 	* Old redstone colors (1.12.2 not working somehow)
 	* Grass deadbush in swamplands
 
 - Sounds
 	* Old pre 2011 sound update restored
-	* Removed other newer sounds (custom sounds.json, see 	changelog)
+	* Removed other newer sounds (custom sounds.json, see changelog)
 
 - Models
 	* Early bell, early campfire (1.14 snapshots)
 	* Rotated A LOT of blocks from right to left (noticable	on stairs and on blocks like furnaces, pumpkins etc...)
-	* Old inventory models for fence gates and pressure	 	plates
+	* Old inventory models for fence gates and pressure plates
 	* Bow has old held pose again (item-like)
-	* Old cactus, pressure plates, stairs, trapdoors and 	fences "on ground" rendering
+	* Old cactus, pressure plates, stairs, trapdoors and fences "on ground" rendering
 	* Trapdoors have the old glitched side texture
-	* Grass block, mycelium and podzol has six sided texture	model (in inventory)
+	* Grass block, mycelium and podzol has six sided texture model (in inventory)
 	* Old nether portal blocks model
 	* Big model for ender eye (3rd person)
 	* Powered rail in inventory uses the on state texture
@@ -68,7 +71,7 @@ FEATURES:
 - Beta looking colormap for grass and foliage
 
 - Textures
-	* Readded head textures (from 1.4.2) (except for the	dragon one)
+	* Readded head textures (from 1.4.2) (except for the dragon one)
 	* All logs/stripped variants and have oak top again
 		Acacia log has 1.7 snapshots texture
 	* Old gravel
@@ -76,22 +79,22 @@ FEATURES:
 	* Old lapis block
 	* Pre 1.12 wool and shulkers
 	* Iron block (from Alpha 1.2.0)
-	* Petrified Oak Slab now has missing texture (GUI/in	hand)
+	* Petrified Oak Slab now has missing texture (GUI/in hand)
 	* Old cobblestone and mossy variant
-		b1.7 cobblestone (but fixed) texture for infested 		cobble
+		b1.7 cobblestone (but fixed) texture for infested cobble
 	* Old netherrack and glowstone
 	* Old coal block (from Minecraft 2.0/13w18a)
 	* Early cut/chiseled sandstone (from 1.2.1)
 	* Early colored glass (from 13w41a)
 	* Old oak sapling
 	* Early grass (from beta 1.5)
-	* Sea grass now is animated in inventory (1.13 				snapshots)
+	* Sea grass now is animated in inventory (1.13 snapshots)
 	* Old rose
 	* Blue Orchid has blue rose texture from Bedrock Edition
 	* Furnaces have stone top again
 	* Old item frame (from http://media.dinnerbone.com/uploads/2012-08/screenshots/Minecraft_2012-08-15_16-20-33.png)
 	* Old dispenser
-	* Redstone block has a retextured version of the Iron			Block from 0.26 SURVIVAL TEST
+	* Redstone block has a retextured version of the Iron (Block from 0.26 SURVIVAL TEST)
 	* Old doors (oak/iron from alpha, others from 14w33a)
 	* Observer (from 16w43a)
 	* Old beacon (from 12w38a)
@@ -131,7 +134,7 @@ FEATURES:
 	* Beds emit stone particles again
 	* Old end portal frame (from b1.9 pre3)
 	* Old reeds (sugar canes)
-	* Hopper uses cauldron texture once again and has the	WIP texture in the inventory
+	* Hopper uses cauldron texture once again and has the WIP texture in the inventory
 	* Carrot item (from 12w34a)
 	* Golden carrot (from 12w36a)
 	* Old stonecutter (from Pocket Edition!)
@@ -144,7 +147,7 @@ FEATURES:
 			inspired from Classic Alternative
 		* Wither rose
 		* Blue ice resembles packed ice texture
-		* Raw/cooked rabbit and mutton now has black			outline
+		* Raw/cooked rabbit and mutton now has black outline
 		* Lectern (inspired from the old original model)
 		* Composter
 		* Loom
@@ -154,7 +157,7 @@ FEATURES:
 		* Cartography table
 		* Prismarine block
 		* End stone (from the original texture)
-		* Petrified oak slabs now have their own texture			(retexturing from planks texture from rd-160052)
+		* Petrified oak slabs now have their own texture (retexturing from planks texture from rd-160052)
 			They emit stone particles again
 		* Lantern
 		* Bucked of cod and pupperfish texture
@@ -171,6 +174,7 @@ FEATURES:
 		* Honey block
 		* Magma block
 		* Coral blocks (missing variants added later)
+		* Phantom (adaptaded from 18w07a texture)
 
 	* Many not implemented textures
 
@@ -180,6 +184,7 @@ Recommended settings
 * Smooth lighting off
 * Light set to moody
 * FOV set to normal (70)
+* Mipmapping to minimum
 
 -------------------------------------------------------------
 
